@@ -1,7 +1,4 @@
-"""LLM runtime — calls a real LLM (OpenAI-compatible) with mock fallback.
-
-Set USE_MOCK=1 (or leave OPENAI_API_KEY unset) to run in mock mode.
-"""
+"""LLM runtime — explicit mock/real selection with clear failure modes."""
 from __future__ import annotations
 import json
 import os
@@ -25,8 +22,62 @@ FAILURE_MODE_BY_QID: dict[str, str] = {
     "hp6": "entity_drift", "hp8": "entity_drift",
 }
 
-def _use_mock() -> bool:
-    return os.getenv("USE_MOCK", "1") == "1" or not os.getenv("OPENAI_API_KEY")
+RuntimeMode = str
+_RUNTIME_MODE_OVERRIDE: str | None = None
+
+
+def _env_flag(name: str) -> bool:
+    return os.getenv(name, "").strip().lower() in {"1", "true", "yes", "on"}
+
+
+def set_runtime_mode(mode: str | None) -> None:
+    global _RUNTIME_MODE_OVERRIDE
+    _RUNTIME_MODE_OVERRIDE = mode
+
+
+def get_runtime_mode(preferred_mode: str | None = None) -> RuntimeMode:
+    """Resolve the runtime mode and fail loudly on invalid real-mode setup."""
+    requested_mode = (
+        preferred_mode or _RUNTIME_MODE_OVERRIDE or os.getenv("LLM_MODE") or "real"
+    ).strip().lower()
+    if requested_mode not in {"real", "mock", "auto"}:
+        raise ValueError(
+            f"Unsupported runtime mode: {requested_mode!r}. Use one of: real, mock, auto."
+        )
+
+    if _env_flag("USE_MOCK"):
+        return "mock"
+    if requested_mode == "mock":
+        return "mock"
+    if requested_mode == "auto":
+        return "real" if os.getenv("OPENAI_API_KEY") else "mock"
+    if not os.getenv("OPENAI_API_KEY"):
+        raise RuntimeError(
+            "Real LLM mode requires OPENAI_API_KEY. Set it, pass --mode mock, or export USE_MOCK=1."
+        )
+    return "real"
+
+
+def get_runtime_info(preferred_mode: str | None = None) -> dict[str, str]:
+    mode = get_runtime_mode(preferred_mode)
+    return {
+        "mode": mode,
+        "model": "mock" if mode == "mock" else os.getenv("LLM_MODEL", "gpt-4o-mini"),
+        "base_url": os.getenv("OPENAI_API_BASE", "https://api.openai.com/v1"),
+    }
+
+
+def _parse_json_response(content: str, step_name: str) -> dict:
+    raw = re.sub(r"```[a-z]*\n?", "", content).replace("```", "").strip()
+    try:
+        data = json.loads(raw)
+    except json.JSONDecodeError as exc:
+        raise ValueError(
+            f"{step_name} returned invalid JSON: {exc.msg}. Raw content: {raw}"
+        ) from exc
+    if not isinstance(data, dict):
+        raise ValueError(f"{step_name} must return a JSON object. Raw content: {raw}")
+    return data
 
 
 # ---------------------------------------------------------------------------
@@ -64,7 +115,7 @@ def actor_answer(
     reflection_memory: list[str],
 ) -> tuple[str, int, int]:
     """Returns (answer, token_estimate, latency_ms)."""
-    if _use_mock():
+    if get_runtime_mode() == "mock":
         if example.qid not in FIRST_ATTEMPT_WRONG:
             ans = example.gold_answer
         elif agent_type == "react":
@@ -90,7 +141,7 @@ def actor_answer(
 
 def evaluator(example: QAExample, answer: str) -> tuple[JudgeResult, int, int]:
     """Returns (JudgeResult, token_estimate, latency_ms)."""
-    if _use_mock():
+    if get_runtime_mode() == "mock":
         if normalize_answer(example.gold_answer) == normalize_answer(answer):
             result = JudgeResult(score=1, reason="Matches gold answer after normalization.")
         elif normalize_answer(answer) == "london":
@@ -115,15 +166,11 @@ def evaluator(example: QAExample, answer: str) -> tuple[JudgeResult, int, int]:
         "Return ONLY valid JSON."
     )
     content, tokens, latency = _chat(EVALUATOR_SYSTEM, user_msg)
-    # parse JSON — strip markdown fences if present
-    raw = re.sub(r"```[a-z]*\n?", "", content).strip()
-    data = json.loads(raw)
-    result = JudgeResult(
-        score=int(data["score"]),
-        reason=data.get("reason", ""),
-        missing_evidence=data.get("missing_evidence"),
-        spurious_claims=data.get("spurious_claims"),
-    )
+    data = _parse_json_response(content, "Evaluator")
+    try:
+        result = JudgeResult.model_validate(data)
+    except Exception as exc:
+        raise ValueError(f"Evaluator JSON did not match JudgeResult schema: {data}") from exc
     return result, tokens, latency
 
 
@@ -131,7 +178,7 @@ def reflector(
     example: QAExample, attempt_id: int, judge: JudgeResult
 ) -> tuple[ReflectionEntry, int, int]:
     """Returns (ReflectionEntry, token_estimate, latency_ms)."""
-    if _use_mock():
+    if get_runtime_mode() == "mock":
         strategy = (
             "Do the second hop explicitly: birthplace city → river through that city."
             if example.qid == "hp2"
@@ -151,12 +198,13 @@ def reflector(
         "Return ONLY valid JSON."
     )
     content, tokens, latency = _chat(REFLECTOR_SYSTEM, user_msg)
-    raw = re.sub(r"```[a-z]*\n?", "", content).strip()
-    data = json.loads(raw)
-    entry = ReflectionEntry(
-        attempt_id=attempt_id,
-        failure_reason=data.get("failure_reason", judge.reason),
-        lesson=data.get("lesson", ""),
-        next_strategy=data.get("next_strategy", ""),
-    )
+    data = _parse_json_response(content, "Reflector")
+    data.setdefault("attempt_id", attempt_id)
+    data.setdefault("failure_reason", judge.reason)
+    try:
+        entry = ReflectionEntry.model_validate(data)
+    except Exception as exc:
+        raise ValueError(
+            f"Reflector JSON did not match ReflectionEntry schema: {data}"
+        ) from exc
     return entry, tokens, latency
