@@ -1,0 +1,1602 @@
+[
+  {
+    "qid": "hp1",
+    "difficulty": "easy",
+    "question": "Which university did the author of The Hobbit teach at?",
+    "gold_answer": "Oxford University",
+    "context": [
+      {
+        "title": "J. R. R. Tolkien",
+        "text": "J. R. R. Tolkien wrote The Hobbit and was a professor at Oxford University."
+      },
+      {
+        "title": "Oxford University",
+        "text": "Oxford University is a collegiate research university in Oxford, England."
+      }
+    ]
+  },
+  {
+    "qid": "hp2",
+    "difficulty": "medium",
+    "question": "What river flows through the city where Ada Lovelace was born?",
+    "gold_answer": "River Thames",
+    "context": [
+      {
+        "title": "Ada Lovelace",
+        "text": "Ada Lovelace was born in London, England."
+      },
+      {
+        "title": "London",
+        "text": "London is crossed by the River Thames."
+      }
+    ]
+  },
+  {
+    "qid": "hp3",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of The Four Seasons mainly play?",
+    "gold_answer": "violin",
+    "context": [
+      {
+        "title": "The Four Seasons",
+        "text": "The Four Seasons is a group of violin concertos by Antonio Vivaldi."
+      },
+      {
+        "title": "Antonio Vivaldi",
+        "text": "Antonio Vivaldi was an Italian Baroque composer and virtuoso violinist."
+      }
+    ]
+  },
+  {
+    "qid": "hp4",
+    "difficulty": "medium",
+    "question": "Which ocean borders the country whose capital is Lima?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "Lima",
+        "text": "Lima is the capital city of Peru."
+      },
+      {
+        "title": "Peru",
+        "text": "Peru borders the Pacific Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "hp5",
+    "difficulty": "easy",
+    "question": "What field did the scientist who proposed the three laws of motion study in addition to physics?",
+    "gold_answer": "mathematics",
+    "context": [
+      {
+        "title": "Isaac Newton",
+        "text": "Isaac Newton formulated the laws of motion and was a physicist and mathematician."
+      },
+      {
+        "title": "Laws of motion",
+        "text": "The three laws of motion are attributed to Isaac Newton."
+      }
+    ]
+  },
+  {
+    "qid": "hp6",
+    "difficulty": "hard",
+    "question": "What sea borders the country where Petra is located?",
+    "gold_answer": "Dead Sea",
+    "context": [
+      {
+        "title": "Petra",
+        "text": "Petra is a historical city in Jordan."
+      },
+      {
+        "title": "Jordan",
+        "text": "Jordan borders the Dead Sea to the west."
+      }
+    ]
+  },
+  {
+    "qid": "hp7",
+    "difficulty": "medium",
+    "question": "Which language family does the primary language of Brazil belong to?",
+    "gold_answer": "Romance",
+    "context": [
+      {
+        "title": "Brazil",
+        "text": "The official language of Brazil is Portuguese."
+      },
+      {
+        "title": "Portuguese language",
+        "text": "Portuguese is a Romance language."
+      }
+    ]
+  },
+  {
+    "qid": "hp8",
+    "difficulty": "hard",
+    "question": "Which mountain range contains the highest mountain in the country whose capital is Kathmandu?",
+    "gold_answer": "Himalayas",
+    "context": [
+      {
+        "title": "Kathmandu",
+        "text": "Kathmandu is the capital city of Nepal."
+      },
+      {
+        "title": "Nepal",
+        "text": "Mount Everest, the highest mountain in Nepal, is part of the Himalayas."
+      }
+    ]
+  },
+  {
+    "qid": "hp001",
+    "difficulty": "medium",
+    "question": "Which river flows through Paris?",
+    "gold_answer": "Seine",
+    "context": [
+      {
+        "title": "Victor Hugo",
+        "text": "Victor Hugo was born in Paris."
+      },
+      {
+        "title": "Paris",
+        "text": "Paris is crossed by the Seine."
+      }
+    ]
+  },
+  {
+    "qid": "hp002",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Paris?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Paris",
+        "text": "Paris is the capital of France."
+      },
+      {
+        "title": "France",
+        "text": "France borders the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "hp003",
+    "difficulty": "hard",
+    "question": "Which mountain range contains the highest peak in France?",
+    "gold_answer": "Alps",
+    "context": [
+      {
+        "title": "France",
+        "text": "France's capital is Paris."
+      },
+      {
+        "title": "Mont Blanc",
+        "text": "Mont Blanc in France is part of the Alps."
+      }
+    ]
+  },
+  {
+    "qid": "hp004",
+    "difficulty": "medium",
+    "question": "What language family does the official language of France belong to?",
+    "gold_answer": "Romance",
+    "context": [
+      {
+        "title": "France",
+        "text": "The official language of France is French."
+      },
+      {
+        "title": "French",
+        "text": "French is a Romance language."
+      }
+    ]
+  },
+  {
+    "qid": "hp005",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Les Misérables mainly play?",
+    "gold_answer": "guitar",
+    "context": [
+      {
+        "title": "Les Misérables",
+        "text": "Les Misérables was composed by Hector Berlioz."
+      },
+      {
+        "title": "Hector Berlioz",
+        "text": "Hector Berlioz was a virtuoso guitar player."
+      }
+    ]
+  },
+  {
+    "qid": "hp006",
+    "difficulty": "medium",
+    "question": "Which river flows through Vienna?",
+    "gold_answer": "Danube",
+    "context": [
+      {
+        "title": "Mozart",
+        "text": "Mozart was born in Vienna."
+      },
+      {
+        "title": "Vienna",
+        "text": "Vienna is crossed by the Danube."
+      }
+    ]
+  },
+  {
+    "qid": "hp007",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Vienna?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Vienna",
+        "text": "Vienna is the capital of Austria."
+      },
+      {
+        "title": "Austria",
+        "text": "Austria borders the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "hp008",
+    "difficulty": "hard",
+    "question": "Which mountain range contains the highest peak in Austria?",
+    "gold_answer": "Alps",
+    "context": [
+      {
+        "title": "Austria",
+        "text": "Austria's capital is Vienna."
+      },
+      {
+        "title": "Grossglockner",
+        "text": "Grossglockner in Austria is part of the Alps."
+      }
+    ]
+  },
+  {
+    "qid": "hp009",
+    "difficulty": "medium",
+    "question": "What language family does the official language of Austria belong to?",
+    "gold_answer": "Germanic",
+    "context": [
+      {
+        "title": "Austria",
+        "text": "The official language of Austria is German."
+      },
+      {
+        "title": "German",
+        "text": "German is a Germanic language."
+      }
+    ]
+  },
+  {
+    "qid": "hp010",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of The Magic Flute mainly play?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "The Magic Flute",
+        "text": "The Magic Flute was composed by Mozart."
+      },
+      {
+        "title": "Mozart",
+        "text": "Mozart was a virtuoso piano player."
+      }
+    ]
+  },
+  {
+    "qid": "hp011",
+    "difficulty": "medium",
+    "question": "Which river flows through Cairo?",
+    "gold_answer": "Nile",
+    "context": [
+      {
+        "title": "Naguib Mahfouz",
+        "text": "Naguib Mahfouz was born in Cairo."
+      },
+      {
+        "title": "Cairo",
+        "text": "Cairo is crossed by the Nile."
+      }
+    ]
+  },
+  {
+    "qid": "hp012",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Cairo?",
+    "gold_answer": "Indian Ocean",
+    "context": [
+      {
+        "title": "Cairo",
+        "text": "Cairo is the capital of Egypt."
+      },
+      {
+        "title": "Egypt",
+        "text": "Egypt borders the Indian Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "hp013",
+    "difficulty": "hard",
+    "question": "Which mountain range contains the highest peak in Egypt?",
+    "gold_answer": "Atlas Mountains",
+    "context": [
+      {
+        "title": "Egypt",
+        "text": "Egypt's capital is Cairo."
+      },
+      {
+        "title": "Mount Catherine",
+        "text": "Mount Catherine in Egypt is part of the Atlas Mountains."
+      }
+    ]
+  },
+  {
+    "qid": "hp014",
+    "difficulty": "medium",
+    "question": "What language family does the official language of Egypt belong to?",
+    "gold_answer": "Semitic",
+    "context": [
+      {
+        "title": "Egypt",
+        "text": "The official language of Egypt is Arabic."
+      },
+      {
+        "title": "Arabic",
+        "text": "Arabic is a Semitic language."
+      }
+    ]
+  },
+  {
+    "qid": "hp015",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Palace Walk mainly play?",
+    "gold_answer": "oud",
+    "context": [
+      {
+        "title": "Palace Walk",
+        "text": "Palace Walk was composed by Umm Kulthum."
+      },
+      {
+        "title": "Umm Kulthum",
+        "text": "Umm Kulthum was a virtuoso oud player."
+      }
+    ]
+  },
+  {
+    "qid": "hp016",
+    "difficulty": "medium",
+    "question": "Which river flows through Rome?",
+    "gold_answer": "Tiber",
+    "context": [
+      {
+        "title": "Galileo",
+        "text": "Galileo was born in Rome."
+      },
+      {
+        "title": "Rome",
+        "text": "Rome is crossed by the Tiber."
+      }
+    ]
+  },
+  {
+    "qid": "hp017",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Rome?",
+    "gold_answer": "Mediterranean Sea",
+    "context": [
+      {
+        "title": "Rome",
+        "text": "Rome is the capital of Italy."
+      },
+      {
+        "title": "Italy",
+        "text": "Italy borders the Mediterranean Sea."
+      }
+    ]
+  },
+  {
+    "qid": "hp018",
+    "difficulty": "hard",
+    "question": "Which mountain range contains the highest peak in Italy?",
+    "gold_answer": "Apennines",
+    "context": [
+      {
+        "title": "Italy",
+        "text": "Italy's capital is Rome."
+      },
+      {
+        "title": "Gran Sasso",
+        "text": "Gran Sasso in Italy is part of the Apennines."
+      }
+    ]
+  },
+  {
+    "qid": "hp019",
+    "difficulty": "medium",
+    "question": "What language family does the official language of Italy belong to?",
+    "gold_answer": "Romance",
+    "context": [
+      {
+        "title": "Italy",
+        "text": "The official language of Italy is Italian."
+      },
+      {
+        "title": "Italian",
+        "text": "Italian is a Romance language."
+      }
+    ]
+  },
+  {
+    "qid": "hp020",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of The Four Seasons mainly play?",
+    "gold_answer": "violin",
+    "context": [
+      {
+        "title": "The Four Seasons",
+        "text": "The Four Seasons was composed by Vivaldi."
+      },
+      {
+        "title": "Vivaldi",
+        "text": "Vivaldi was a virtuoso violin player."
+      }
+    ]
+  },
+  {
+    "qid": "hp021",
+    "difficulty": "medium",
+    "question": "Which river flows through Moscow?",
+    "gold_answer": "Moskva",
+    "context": [
+      {
+        "title": "Tolstoy",
+        "text": "Tolstoy was born in Moscow."
+      },
+      {
+        "title": "Moscow",
+        "text": "Moscow is crossed by the Moskva."
+      }
+    ]
+  },
+  {
+    "qid": "hp022",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Moscow?",
+    "gold_answer": "Arctic Ocean",
+    "context": [
+      {
+        "title": "Moscow",
+        "text": "Moscow is the capital of Russia."
+      },
+      {
+        "title": "Russia",
+        "text": "Russia borders the Arctic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "hp023",
+    "difficulty": "hard",
+    "question": "Which mountain range contains the highest peak in Russia?",
+    "gold_answer": "Ural Mountains",
+    "context": [
+      {
+        "title": "Russia",
+        "text": "Russia's capital is Moscow."
+      },
+      {
+        "title": "Mount Elbrus",
+        "text": "Mount Elbrus in Russia is part of the Ural Mountains."
+      }
+    ]
+  },
+  {
+    "qid": "hp024",
+    "difficulty": "medium",
+    "question": "What language family does the official language of Russia belong to?",
+    "gold_answer": "Slavic",
+    "context": [
+      {
+        "title": "Russia",
+        "text": "The official language of Russia is Russian."
+      },
+      {
+        "title": "Russian",
+        "text": "Russian is a Slavic language."
+      }
+    ]
+  },
+  {
+    "qid": "hp025",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of War and Peace mainly play?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "War and Peace",
+        "text": "War and Peace was composed by Tchaikovsky."
+      },
+      {
+        "title": "Tchaikovsky",
+        "text": "Tchaikovsky was a virtuoso piano player."
+      }
+    ]
+  },
+  {
+    "qid": "hp026",
+    "difficulty": "medium",
+    "question": "Which river flows through Beijing?",
+    "gold_answer": "Yangtze",
+    "context": [
+      {
+        "title": "Confucius",
+        "text": "Confucius was born in Beijing."
+      },
+      {
+        "title": "Beijing",
+        "text": "Beijing is crossed by the Yangtze."
+      }
+    ]
+  },
+  {
+    "qid": "hp027",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Beijing?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "Beijing",
+        "text": "Beijing is the capital of China."
+      },
+      {
+        "title": "China",
+        "text": "China borders the Pacific Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "hp028",
+    "difficulty": "hard",
+    "question": "Which mountain range contains the highest peak in China?",
+    "gold_answer": "Himalayas",
+    "context": [
+      {
+        "title": "China",
+        "text": "China's capital is Beijing."
+      },
+      {
+        "title": "Mount Everest",
+        "text": "Mount Everest in China is part of the Himalayas."
+      }
+    ]
+  },
+  {
+    "qid": "hp029",
+    "difficulty": "medium",
+    "question": "What language family does the official language of China belong to?",
+    "gold_answer": "Sino-Tibetan",
+    "context": [
+      {
+        "title": "China",
+        "text": "The official language of China is Mandarin."
+      },
+      {
+        "title": "Mandarin",
+        "text": "Mandarin is a Sino-Tibetan language."
+      }
+    ]
+  },
+  {
+    "qid": "hp030",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of The Yellow River Cantata mainly play?",
+    "gold_answer": "erhu",
+    "context": [
+      {
+        "title": "The Yellow River Cantata",
+        "text": "The Yellow River Cantata was composed by Xian Xinghai."
+      },
+      {
+        "title": "Xian Xinghai",
+        "text": "Xian Xinghai was a virtuoso erhu player."
+      }
+    ]
+  },
+  {
+    "qid": "hp031",
+    "difficulty": "medium",
+    "question": "Which river flows through Tokyo?",
+    "gold_answer": "Sumida",
+    "context": [
+      {
+        "title": "Matsuo Basho",
+        "text": "Matsuo Basho was born in Tokyo."
+      },
+      {
+        "title": "Tokyo",
+        "text": "Tokyo is crossed by the Sumida."
+      }
+    ]
+  },
+  {
+    "qid": "hp032",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Tokyo?",
+    "gold_answer": "Pacific Ocean",
+    "context": [
+      {
+        "title": "Tokyo",
+        "text": "Tokyo is the capital of Japan."
+      },
+      {
+        "title": "Japan",
+        "text": "Japan borders the Pacific Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "hp033",
+    "difficulty": "hard",
+    "question": "Which mountain range contains the highest peak in Japan?",
+    "gold_answer": "Japanese Alps",
+    "context": [
+      {
+        "title": "Japan",
+        "text": "Japan's capital is Tokyo."
+      },
+      {
+        "title": "Mount Fuji",
+        "text": "Mount Fuji in Japan is part of the Japanese Alps."
+      }
+    ]
+  },
+  {
+    "qid": "hp034",
+    "difficulty": "medium",
+    "question": "What language family does the official language of Japan belong to?",
+    "gold_answer": "Japonic",
+    "context": [
+      {
+        "title": "Japan",
+        "text": "The official language of Japan is Japanese."
+      },
+      {
+        "title": "Japanese",
+        "text": "Japanese is a Japonic language."
+      }
+    ]
+  },
+  {
+    "qid": "hp035",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of The Four Seasons mainly play?",
+    "gold_answer": "biwa",
+    "context": [
+      {
+        "title": "The Four Seasons",
+        "text": "The Four Seasons was composed by Toru Takemitsu."
+      },
+      {
+        "title": "Toru Takemitsu",
+        "text": "Toru Takemitsu was a virtuoso biwa player."
+      }
+    ]
+  },
+  {
+    "qid": "hp036",
+    "difficulty": "medium",
+    "question": "Which river flows through London?",
+    "gold_answer": "River Thames",
+    "context": [
+      {
+        "title": "Ada Lovelace",
+        "text": "Ada Lovelace was born in London."
+      },
+      {
+        "title": "London",
+        "text": "London is crossed by the River Thames."
+      }
+    ]
+  },
+  {
+    "qid": "hp037",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is London?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "London",
+        "text": "London is the capital of United Kingdom."
+      },
+      {
+        "title": "United Kingdom",
+        "text": "United Kingdom borders the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "hp038",
+    "difficulty": "hard",
+    "question": "Which mountain range contains the highest peak in United Kingdom?",
+    "gold_answer": "Pennines",
+    "context": [
+      {
+        "title": "United Kingdom",
+        "text": "United Kingdom's capital is London."
+      },
+      {
+        "title": "Ben Nevis",
+        "text": "Ben Nevis in United Kingdom is part of the Pennines."
+      }
+    ]
+  },
+  {
+    "qid": "hp039",
+    "difficulty": "medium",
+    "question": "What language family does the official language of United Kingdom belong to?",
+    "gold_answer": "Germanic",
+    "context": [
+      {
+        "title": "United Kingdom",
+        "text": "The official language of United Kingdom is English."
+      },
+      {
+        "title": "English",
+        "text": "English is a Germanic language."
+      }
+    ]
+  },
+  {
+    "qid": "hp040",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Messiah mainly play?",
+    "gold_answer": "harpsichord",
+    "context": [
+      {
+        "title": "Messiah",
+        "text": "Messiah was composed by Handel."
+      },
+      {
+        "title": "Handel",
+        "text": "Handel was a virtuoso harpsichord player."
+      }
+    ]
+  },
+  {
+    "qid": "hp041",
+    "difficulty": "medium",
+    "question": "Which river flows through Madrid?",
+    "gold_answer": "Manzanares",
+    "context": [
+      {
+        "title": "Cervantes",
+        "text": "Cervantes was born in Madrid."
+      },
+      {
+        "title": "Madrid",
+        "text": "Madrid is crossed by the Manzanares."
+      }
+    ]
+  },
+  {
+    "qid": "hp042",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Madrid?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Madrid",
+        "text": "Madrid is the capital of Spain."
+      },
+      {
+        "title": "Spain",
+        "text": "Spain borders the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "hp043",
+    "difficulty": "hard",
+    "question": "Which mountain range contains the highest peak in Spain?",
+    "gold_answer": "Pyrenees",
+    "context": [
+      {
+        "title": "Spain",
+        "text": "Spain's capital is Madrid."
+      },
+      {
+        "title": "Mulhacén",
+        "text": "Mulhacén in Spain is part of the Pyrenees."
+      }
+    ]
+  },
+  {
+    "qid": "hp044",
+    "difficulty": "medium",
+    "question": "What language family does the official language of Spain belong to?",
+    "gold_answer": "Romance",
+    "context": [
+      {
+        "title": "Spain",
+        "text": "The official language of Spain is Spanish."
+      },
+      {
+        "title": "Spanish",
+        "text": "Spanish is a Romance language."
+      }
+    ]
+  },
+  {
+    "qid": "hp045",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Don Quixote mainly play?",
+    "gold_answer": "guitar",
+    "context": [
+      {
+        "title": "Don Quixote",
+        "text": "Don Quixote was composed by Manuel de Falla."
+      },
+      {
+        "title": "Manuel de Falla",
+        "text": "Manuel de Falla was a virtuoso guitar player."
+      }
+    ]
+  },
+  {
+    "qid": "hp046",
+    "difficulty": "medium",
+    "question": "Which river flows through Lisbon?",
+    "gold_answer": "Tagus",
+    "context": [
+      {
+        "title": "Fernando Pessoa",
+        "text": "Fernando Pessoa was born in Lisbon."
+      },
+      {
+        "title": "Lisbon",
+        "text": "Lisbon is crossed by the Tagus."
+      }
+    ]
+  },
+  {
+    "qid": "hp047",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Lisbon?",
+    "gold_answer": "Atlantic Ocean",
+    "context": [
+      {
+        "title": "Lisbon",
+        "text": "Lisbon is the capital of Portugal."
+      },
+      {
+        "title": "Portugal",
+        "text": "Portugal borders the Atlantic Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "hp048",
+    "difficulty": "hard",
+    "question": "Which mountain range contains the highest peak in Portugal?",
+    "gold_answer": "Serra da Estrela",
+    "context": [
+      {
+        "title": "Portugal",
+        "text": "Portugal's capital is Lisbon."
+      },
+      {
+        "title": "Torre",
+        "text": "Torre in Portugal is part of the Serra da Estrela."
+      }
+    ]
+  },
+  {
+    "qid": "hp049",
+    "difficulty": "medium",
+    "question": "What language family does the official language of Portugal belong to?",
+    "gold_answer": "Romance",
+    "context": [
+      {
+        "title": "Portugal",
+        "text": "The official language of Portugal is Portuguese."
+      },
+      {
+        "title": "Portuguese",
+        "text": "Portuguese is a Romance language."
+      }
+    ]
+  },
+  {
+    "qid": "hp050",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Fado mainly play?",
+    "gold_answer": "guitar",
+    "context": [
+      {
+        "title": "Fado",
+        "text": "Fado was composed by Amália Rodrigues."
+      },
+      {
+        "title": "Amália Rodrigues",
+        "text": "Amália Rodrigues was a virtuoso guitar player."
+      }
+    ]
+  },
+  {
+    "qid": "hp051",
+    "difficulty": "medium",
+    "question": "Which river flows through Amsterdam?",
+    "gold_answer": "Amstel",
+    "context": [
+      {
+        "title": "Rembrandt",
+        "text": "Rembrandt was born in Amsterdam."
+      },
+      {
+        "title": "Amsterdam",
+        "text": "Amsterdam is crossed by the Amstel."
+      }
+    ]
+  },
+  {
+    "qid": "hp052",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Amsterdam?",
+    "gold_answer": "North Sea",
+    "context": [
+      {
+        "title": "Amsterdam",
+        "text": "Amsterdam is the capital of Netherlands."
+      },
+      {
+        "title": "Netherlands",
+        "text": "Netherlands borders the North Sea."
+      }
+    ]
+  },
+  {
+    "qid": "hp053",
+    "difficulty": "hard",
+    "question": "Which mountain range contains the highest peak in Netherlands?",
+    "gold_answer": "Ardennes",
+    "context": [
+      {
+        "title": "Netherlands",
+        "text": "Netherlands's capital is Amsterdam."
+      },
+      {
+        "title": "Vaalserberg",
+        "text": "Vaalserberg in Netherlands is part of the Ardennes."
+      }
+    ]
+  },
+  {
+    "qid": "hp054",
+    "difficulty": "medium",
+    "question": "What language family does the official language of Netherlands belong to?",
+    "gold_answer": "Germanic",
+    "context": [
+      {
+        "title": "Netherlands",
+        "text": "The official language of Netherlands is Dutch."
+      },
+      {
+        "title": "Dutch",
+        "text": "Dutch is a Germanic language."
+      }
+    ]
+  },
+  {
+    "qid": "hp055",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of The Night Watch mainly play?",
+    "gold_answer": "organ",
+    "context": [
+      {
+        "title": "The Night Watch",
+        "text": "The Night Watch was composed by Jan Sweelinck."
+      },
+      {
+        "title": "Jan Sweelinck",
+        "text": "Jan Sweelinck was a virtuoso organ player."
+      }
+    ]
+  },
+  {
+    "qid": "hp056",
+    "difficulty": "medium",
+    "question": "Which river flows through Brussels?",
+    "gold_answer": "Senne",
+    "context": [
+      {
+        "title": "René Magritte",
+        "text": "René Magritte was born in Brussels."
+      },
+      {
+        "title": "Brussels",
+        "text": "Brussels is crossed by the Senne."
+      }
+    ]
+  },
+  {
+    "qid": "hp057",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Brussels?",
+    "gold_answer": "North Sea",
+    "context": [
+      {
+        "title": "Brussels",
+        "text": "Brussels is the capital of Belgium."
+      },
+      {
+        "title": "Belgium",
+        "text": "Belgium borders the North Sea."
+      }
+    ]
+  },
+  {
+    "qid": "hp058",
+    "difficulty": "hard",
+    "question": "Which mountain range contains the highest peak in Belgium?",
+    "gold_answer": "Ardennes",
+    "context": [
+      {
+        "title": "Belgium",
+        "text": "Belgium's capital is Brussels."
+      },
+      {
+        "title": "Signal de Botrange",
+        "text": "Signal de Botrange in Belgium is part of the Ardennes."
+      }
+    ]
+  },
+  {
+    "qid": "hp059",
+    "difficulty": "medium",
+    "question": "What language family does the official language of Belgium belong to?",
+    "gold_answer": "Romance",
+    "context": [
+      {
+        "title": "Belgium",
+        "text": "The official language of Belgium is French."
+      },
+      {
+        "title": "French",
+        "text": "French is a Romance language."
+      }
+    ]
+  },
+  {
+    "qid": "hp060",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of The Treachery of Images mainly play?",
+    "gold_answer": "organ",
+    "context": [
+      {
+        "title": "The Treachery of Images",
+        "text": "The Treachery of Images was composed by César Franck."
+      },
+      {
+        "title": "César Franck",
+        "text": "César Franck was a virtuoso organ player."
+      }
+    ]
+  },
+  {
+    "qid": "hp061",
+    "difficulty": "medium",
+    "question": "Which river flows through Warsaw?",
+    "gold_answer": "Vistula",
+    "context": [
+      {
+        "title": "Chopin",
+        "text": "Chopin was born in Warsaw."
+      },
+      {
+        "title": "Warsaw",
+        "text": "Warsaw is crossed by the Vistula."
+      }
+    ]
+  },
+  {
+    "qid": "hp062",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Warsaw?",
+    "gold_answer": "Baltic Sea",
+    "context": [
+      {
+        "title": "Warsaw",
+        "text": "Warsaw is the capital of Poland."
+      },
+      {
+        "title": "Poland",
+        "text": "Poland borders the Baltic Sea."
+      }
+    ]
+  },
+  {
+    "qid": "hp063",
+    "difficulty": "hard",
+    "question": "Which mountain range contains the highest peak in Poland?",
+    "gold_answer": "Carpathians",
+    "context": [
+      {
+        "title": "Poland",
+        "text": "Poland's capital is Warsaw."
+      },
+      {
+        "title": "Rysy",
+        "text": "Rysy in Poland is part of the Carpathians."
+      }
+    ]
+  },
+  {
+    "qid": "hp064",
+    "difficulty": "medium",
+    "question": "What language family does the official language of Poland belong to?",
+    "gold_answer": "Slavic",
+    "context": [
+      {
+        "title": "Poland",
+        "text": "The official language of Poland is Polish."
+      },
+      {
+        "title": "Polish",
+        "text": "Polish is a Slavic language."
+      }
+    ]
+  },
+  {
+    "qid": "hp065",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Nocturnes mainly play?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "Nocturnes",
+        "text": "Nocturnes was composed by Chopin."
+      },
+      {
+        "title": "Chopin",
+        "text": "Chopin was a virtuoso piano player."
+      }
+    ]
+  },
+  {
+    "qid": "hp066",
+    "difficulty": "medium",
+    "question": "Which river flows through Prague?",
+    "gold_answer": "Vltava",
+    "context": [
+      {
+        "title": "Kafka",
+        "text": "Kafka was born in Prague."
+      },
+      {
+        "title": "Prague",
+        "text": "Prague is crossed by the Vltava."
+      }
+    ]
+  },
+  {
+    "qid": "hp067",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Prague?",
+    "gold_answer": "North Sea",
+    "context": [
+      {
+        "title": "Prague",
+        "text": "Prague is the capital of Czech Republic."
+      },
+      {
+        "title": "Czech Republic",
+        "text": "Czech Republic borders the North Sea."
+      }
+    ]
+  },
+  {
+    "qid": "hp068",
+    "difficulty": "hard",
+    "question": "Which mountain range contains the highest peak in Czech Republic?",
+    "gold_answer": "Sudetes",
+    "context": [
+      {
+        "title": "Czech Republic",
+        "text": "Czech Republic's capital is Prague."
+      },
+      {
+        "title": "Sněžka",
+        "text": "Sněžka in Czech Republic is part of the Sudetes."
+      }
+    ]
+  },
+  {
+    "qid": "hp069",
+    "difficulty": "medium",
+    "question": "What language family does the official language of Czech Republic belong to?",
+    "gold_answer": "Slavic",
+    "context": [
+      {
+        "title": "Czech Republic",
+        "text": "The official language of Czech Republic is Czech."
+      },
+      {
+        "title": "Czech",
+        "text": "Czech is a Slavic language."
+      }
+    ]
+  },
+  {
+    "qid": "hp070",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of The Metamorphosis mainly play?",
+    "gold_answer": "viola",
+    "context": [
+      {
+        "title": "The Metamorphosis",
+        "text": "The Metamorphosis was composed by Dvořák."
+      },
+      {
+        "title": "Dvořák",
+        "text": "Dvořák was a virtuoso viola player."
+      }
+    ]
+  },
+  {
+    "qid": "hp071",
+    "difficulty": "medium",
+    "question": "Which river flows through Budapest?",
+    "gold_answer": "Danube",
+    "context": [
+      {
+        "title": "Liszt",
+        "text": "Liszt was born in Budapest."
+      },
+      {
+        "title": "Budapest",
+        "text": "Budapest is crossed by the Danube."
+      }
+    ]
+  },
+  {
+    "qid": "hp072",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Budapest?",
+    "gold_answer": "Black Sea",
+    "context": [
+      {
+        "title": "Budapest",
+        "text": "Budapest is the capital of Hungary."
+      },
+      {
+        "title": "Hungary",
+        "text": "Hungary borders the Black Sea."
+      }
+    ]
+  },
+  {
+    "qid": "hp073",
+    "difficulty": "hard",
+    "question": "Which mountain range contains the highest peak in Hungary?",
+    "gold_answer": "Carpathians",
+    "context": [
+      {
+        "title": "Hungary",
+        "text": "Hungary's capital is Budapest."
+      },
+      {
+        "title": "Kékes",
+        "text": "Kékes in Hungary is part of the Carpathians."
+      }
+    ]
+  },
+  {
+    "qid": "hp074",
+    "difficulty": "medium",
+    "question": "What language family does the official language of Hungary belong to?",
+    "gold_answer": "Uralic",
+    "context": [
+      {
+        "title": "Hungary",
+        "text": "The official language of Hungary is Hungarian."
+      },
+      {
+        "title": "Hungarian",
+        "text": "Hungarian is a Uralic language."
+      }
+    ]
+  },
+  {
+    "qid": "hp075",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Hungarian Rhapsodies mainly play?",
+    "gold_answer": "piano",
+    "context": [
+      {
+        "title": "Hungarian Rhapsodies",
+        "text": "Hungarian Rhapsodies was composed by Liszt."
+      },
+      {
+        "title": "Liszt",
+        "text": "Liszt was a virtuoso piano player."
+      }
+    ]
+  },
+  {
+    "qid": "hp076",
+    "difficulty": "medium",
+    "question": "Which river flows through Athens?",
+    "gold_answer": "Ilissos",
+    "context": [
+      {
+        "title": "Socrates",
+        "text": "Socrates was born in Athens."
+      },
+      {
+        "title": "Athens",
+        "text": "Athens is crossed by the Ilissos."
+      }
+    ]
+  },
+  {
+    "qid": "hp077",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Athens?",
+    "gold_answer": "Mediterranean Sea",
+    "context": [
+      {
+        "title": "Athens",
+        "text": "Athens is the capital of Greece."
+      },
+      {
+        "title": "Greece",
+        "text": "Greece borders the Mediterranean Sea."
+      }
+    ]
+  },
+  {
+    "qid": "hp078",
+    "difficulty": "hard",
+    "question": "Which mountain range contains the highest peak in Greece?",
+    "gold_answer": "Pindus",
+    "context": [
+      {
+        "title": "Greece",
+        "text": "Greece's capital is Athens."
+      },
+      {
+        "title": "Mount Olympus",
+        "text": "Mount Olympus in Greece is part of the Pindus."
+      }
+    ]
+  },
+  {
+    "qid": "hp079",
+    "difficulty": "medium",
+    "question": "What language family does the official language of Greece belong to?",
+    "gold_answer": "Hellenic",
+    "context": [
+      {
+        "title": "Greece",
+        "text": "The official language of Greece is Greek."
+      },
+      {
+        "title": "Greek",
+        "text": "Greek is a Hellenic language."
+      }
+    ]
+  },
+  {
+    "qid": "hp080",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Oedipus Rex mainly play?",
+    "gold_answer": "bouzouki",
+    "context": [
+      {
+        "title": "Oedipus Rex",
+        "text": "Oedipus Rex was composed by Mikis Theodorakis."
+      },
+      {
+        "title": "Mikis Theodorakis",
+        "text": "Mikis Theodorakis was a virtuoso bouzouki player."
+      }
+    ]
+  },
+  {
+    "qid": "hp081",
+    "difficulty": "medium",
+    "question": "Which river flows through Istanbul?",
+    "gold_answer": "Bosphorus",
+    "context": [
+      {
+        "title": "Orhan Pamuk",
+        "text": "Orhan Pamuk was born in Istanbul."
+      },
+      {
+        "title": "Istanbul",
+        "text": "Istanbul is crossed by the Bosphorus."
+      }
+    ]
+  },
+  {
+    "qid": "hp082",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Ankara?",
+    "gold_answer": "Black Sea",
+    "context": [
+      {
+        "title": "Ankara",
+        "text": "Ankara is the capital of Turkey."
+      },
+      {
+        "title": "Turkey",
+        "text": "Turkey borders the Black Sea."
+      }
+    ]
+  },
+  {
+    "qid": "hp083",
+    "difficulty": "hard",
+    "question": "Which mountain range contains the highest peak in Turkey?",
+    "gold_answer": "Taurus Mountains",
+    "context": [
+      {
+        "title": "Turkey",
+        "text": "Turkey's capital is Ankara."
+      },
+      {
+        "title": "Mount Ararat",
+        "text": "Mount Ararat in Turkey is part of the Taurus Mountains."
+      }
+    ]
+  },
+  {
+    "qid": "hp084",
+    "difficulty": "medium",
+    "question": "What language family does the official language of Turkey belong to?",
+    "gold_answer": "Turkic",
+    "context": [
+      {
+        "title": "Turkey",
+        "text": "The official language of Turkey is Turkish."
+      },
+      {
+        "title": "Turkish",
+        "text": "Turkish is a Turkic language."
+      }
+    ]
+  },
+  {
+    "qid": "hp085",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of My Name Is Red mainly play?",
+    "gold_answer": "oud",
+    "context": [
+      {
+        "title": "My Name Is Red",
+        "text": "My Name Is Red was composed by Zeki Müren."
+      },
+      {
+        "title": "Zeki Müren",
+        "text": "Zeki Müren was a virtuoso oud player."
+      }
+    ]
+  },
+  {
+    "qid": "hp086",
+    "difficulty": "medium",
+    "question": "Which river flows through Tehran?",
+    "gold_answer": "Karaj",
+    "context": [
+      {
+        "title": "Omar Khayyam",
+        "text": "Omar Khayyam was born in Tehran."
+      },
+      {
+        "title": "Tehran",
+        "text": "Tehran is crossed by the Karaj."
+      }
+    ]
+  },
+  {
+    "qid": "hp087",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is Tehran?",
+    "gold_answer": "Indian Ocean",
+    "context": [
+      {
+        "title": "Tehran",
+        "text": "Tehran is the capital of Iran."
+      },
+      {
+        "title": "Iran",
+        "text": "Iran borders the Indian Ocean."
+      }
+    ]
+  },
+  {
+    "qid": "hp088",
+    "difficulty": "hard",
+    "question": "Which mountain range contains the highest peak in Iran?",
+    "gold_answer": "Alborz",
+    "context": [
+      {
+        "title": "Iran",
+        "text": "Iran's capital is Tehran."
+      },
+      {
+        "title": "Mount Damavand",
+        "text": "Mount Damavand in Iran is part of the Alborz."
+      }
+    ]
+  },
+  {
+    "qid": "hp089",
+    "difficulty": "medium",
+    "question": "What language family does the official language of Iran belong to?",
+    "gold_answer": "Indo-Iranian",
+    "context": [
+      {
+        "title": "Iran",
+        "text": "The official language of Iran is Persian."
+      },
+      {
+        "title": "Persian",
+        "text": "Persian is a Indo-Iranian language."
+      }
+    ]
+  },
+  {
+    "qid": "hp090",
+    "difficulty": "easy",
+    "question": "What instrument did the composer of Rubaiyat mainly play?",
+    "gold_answer": "setar",
+    "context": [
+      {
+        "title": "Rubaiyat",
+        "text": "Rubaiyat was composed by Mohammad Reza Shajarian."
+      },
+      {
+        "title": "Mohammad Reza Shajarian",
+        "text": "Mohammad Reza Shajarian was a virtuoso setar player."
+      }
+    ]
+  },
+  {
+    "qid": "hp091",
+    "difficulty": "medium",
+    "question": "Which river flows through Delhi?",
+    "gold_answer": "Yamuna",
+    "context": [
+      {
+        "title": "Rabindranath Tagore",
+        "text": "Rabindranath Tagore was born in Delhi."
+      },
+      {
+        "title": "Delhi",
+        "text": "Delhi is crossed by the Yamuna."
+      }
+    ]
+  },
+  {
+    "qid": "hp092",
+    "difficulty": "medium",
+    "question": "What ocean borders the country whose capital is New Delhi?",
+    "gold_answer": "Indian Ocean",
+    "context": [
+      {
+        "title": "New Delhi",
+        "text": "New Delhi is the capital of India."
+      },
+      {
+        "title": "India",
+        "text": "India borders the Indian Ocean."
+      }
+    ]
+  }
+]
