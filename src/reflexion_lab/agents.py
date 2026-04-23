@@ -83,3 +83,9 @@ class ReActAgent(BaseAgent):
 class ReflexionAgent(BaseAgent):
     def __init__(self, max_attempts: int = 3) -> None:
         super().__init__(agent_type="reflexion", max_attempts=max_attempts)
+
+    def run(self, example: QAExample) -> RunRecord:
+        # adaptive_max_attempts: increase attempts for harder questions
+        difficulty_attempts = {"easy": 2, "medium": 3, "hard": 5}
+        self.max_attempts = difficulty_attempts.get(example.difficulty, self.max_attempts)
+        return super().run(example)
